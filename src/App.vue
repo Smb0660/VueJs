@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ProducerComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ProducerComponent from "@/components/ProducerComponent";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ProducerComponent
   }
 }
 </script>
